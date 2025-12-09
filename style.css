@@ -1,33 +1,7 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f0f2f5;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: #0a74da;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-}
-
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: white;
-}
+repository-name/
+├─ index.html       ← main webpage
+├─ style.css        ← styling for the page
+└─ images/          ← folder for your slide images
+   ├─ slide1.png
+   ├─ slide2.png
+   └─ etc...
