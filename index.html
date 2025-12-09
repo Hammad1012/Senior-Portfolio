@@ -18,15 +18,13 @@
 
   <section id="projects">
     <h2>My Projects</h2>
-    <!-- Add your slide images here -->
-    <img src="images/slide1.png" alt="Slide 1">
-    <img src="images/slide2.png" alt="Slide 2">
-    <!-- Add more slides as needed -->
+    <!-- All slide images will appear here -->
+    <div id="slides-container"></div>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Write a short description about yourself here.</p>
+    <p>IT major with a Cybersecurity minor. Love building PCs, athletic, and enjoy playing soccer. Passionate about technology and interested in software development and cybersecurity.</p>
   </section>
 
   <section id="contact">
@@ -37,5 +35,19 @@
   <footer>
     <p>© 2025 Your Name</p>
   </footer>
+
+  <script>
+    // Automatically load all slide images
+    const slidesContainer = document.getElementById('slides-container');
+    const totalSlides = 9; // Change if you have more or fewer slides
+
+    for (let i = 1; i <= totalSlides; i++) {
+      const img = document.createElement('img');
+      img.src = `images/Slide${i}.jpeg`; // Make sure file names match exactly
+      img.alt = `Slide ${i}`;
+      slidesContainer.appendChild(img);
+    }
+  </script>
 </body>
 </html>
+
